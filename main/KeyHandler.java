@@ -128,7 +128,6 @@ public class KeyHandler implements KeyListener {
 
         if (gp.ui.selectionContext.equals("checkout") || gp.ui.selectionContext.equals("makeOrder")
             || gp.ui.selectionContext.equals("displayProducts")) {
-          System.out.println("space");
           handleSpaceForDynamicSelectionWindows(selectionsAvailable);
         } else {
           if (gp.ui.selectionCommandNum == 1) {
